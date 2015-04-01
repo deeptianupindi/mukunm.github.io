@@ -1,14 +1,26 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Mukund Manikarnike
+email: mukunm@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  You have reached Mukund Manikarnike. I am a Software engineer. I currently
+  stay in Tempe, Arizona, United States of America.
+
+  I'm pursuing my masters in Computer Science at Arizona State University,
+  expecting to graduate in Spring 2016.
+
+  I'm interested in writing Software. No matter what it is for, if you have
+  an interesting idea, I can write software for you and help you realize your
+  idea. I've worked on a varied nature of projects ranging from embedded systems
+  to desktop/web applications.
+
+  You can find details of my work on this website. I'm looking for an internship
+  for the summer of 2015. If my work interests you, you can reach
+  me at +1-(480)-599-9621.
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: manikarnike
+github_username:  mukunm
 
 # Build settings
 markdown: kramdown
