@@ -1,0 +1,11 @@
+﻿.blog-content-wrapper {
+    margin: 0 25px;
+    max-width: 960px;
+}
+
+.blog-main-content {
+    background: url("../Images/accent.png") no-repeat;
+    background-position: 17% 0%;
+    padding-left: 10px;
+    padding-top: 30px;
+}
