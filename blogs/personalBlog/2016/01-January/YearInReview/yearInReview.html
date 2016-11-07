@@ -1,8 +1,9 @@
 <html>
     <head>
-        <title>Home - mmanikar</title>
+        <title>Blog - mmanikar</title>
         <link rel="stylesheet" href="/css/Site.css">
-        <link href="/images/Logos/mmanikar.jpg" rel="shortcut icon" type="image/x-icon" />
+        <link rel="stylesheet" href="/css/Blog.css">
+        <link href="/Images/Logos/mmanikar.jpg" rel="shortcut icon" type="image/x-icon" />
     </head>
     <body>
         <header>
@@ -26,38 +27,34 @@
         </header>
 
         <div id = "body">
-            <section class="content-wrapper main-content clear-fix">
-                <div>
-                    <h3>Posts</h3>
-                    <br /> 
-                    <div class="post">
-                        <div class="date">
-                            January 3, 2016
-                        </div>
-                        <h1>
-                            <a href="/blogs/personalBlog/2016/01-January/YearInReview/yearInReview.html">Year in Review 2015</a>
-                        </h1>
-                        <p>
-                            It was a crazy year filled with memories, travelling to Arizona, starting Grad School, several trips, parties, hangouts and study sessions at the University. Here's an attempt to capture all those memories
-                            in one place.
-                        </p>
-                    </div>
-                    <br/>
-
-                    <div class="post">
-                        <div class="date">
-                            October 10, 2015
-                        </div>
-                        <h1>
-                            <a href="/blogs/personalBlog/2015/10-October/FallBreak2015/fallBreak2015.html">Fall Break 2015</a>
-                        </h1>
-                        <p>
-                            We went on this trip to Zion during the Fall break of 2015. Here's all the moments leading upto the trip
-                            and during the trip captured in text and pictures.
-                        </p>
-                    </div>
-                    <br/>               
+            <section class="blog-content-wrapper blog-main-content clear-fix">
+                <div class="title">
+                    <h1 style="font-family: 'Brush Script MT'; font-size: 40px; color: #000000;">The Year 2015 in review</h1>
+                    <hr style="width:1300px;"/>
+                    <h3>January 3, 2016</h3>
                 </div>
+
+                <br />
+                <iframe id="yearInReviewFrame" 
+                        src="/documents/blog/personalBlog/2016/01-January/YearInReview/YearInReview.htm" 
+                        style="width:1300px;height:750px;" 
+                        frameborder="0"
+                        runat="server"></iframe>
+                <br />
+
+                <div id="disqus_thread" style="width:1300px;"></div>
+                <script type="text/javascript">
+                    var disqus_shortname = "mmanikar";
+                    var disqus_identifier = "YearInReview";
+                    var disqus_title = "Year In Review";
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function () {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
             </section>
         </div>
 
@@ -68,31 +65,31 @@
                         <tr>
                         <td>
                             <a href ="https://github.com/mukunm" target="_blank" style="font-size:15px">
-                                <img src="/images/Logos/github.png" 
+                                <img src="/Images/Logos/github.png" 
                                            width="15" height="15" title="mukunm"/>
                             </a>
                         </td>
                         <td>
                             <a href="https://www.linkedin.com/in/manikarnike" target="_blank" style="font-size:15px">
-                                <img src="/images/Logos/linkedin.png" 
+                                <img src="/Images/Logos/linkedin.png" 
                                            width="15" height="15" title="manikarnike"/>
                             </a>
                         </td>
                         <td>
                             <a href="https://twitter.com/manikarnike" target="_blank" style="font-size:15px">
-                                <img src="/images/Logos/twitter.png" 
+                                <img src="/Images/Logos/twitter.png" 
                                            width="15" height="15" title="manikarnike"/>
                             </a>
                         </td>
                         <td>
                             <a href="https://www.facebook.com/mukund1.2" target="_blank" style="font-size:15px">
-                                <img src="/images/Logos/facebook.png" 
+                                <img src="/Images/Logos/facebook.png" 
                                             width="15" height="15" title="mukund1.2"/>
                             </a>
                         </td>
                         <td>
                             <a href="https://plus.google.com/+MukundManikarnike" target="_blank" style="font-size:15px">
-                                <img src="/images/Logos/gplus.png" 
+                                <img src="/Images/Logos/gplus.png" 
                                             width="15" height="15" title="mukunm"/>                        
                             </a>
                         </td>
@@ -103,7 +100,7 @@
                     <p style="align-content:center">&copy;2015 - 2016 mmanikar</p>
                 </div>
                 <div class="float-right" style="width:30%">
-                    <p>Hosted on Github, Maintained by Mukund Manikarnike</p>
+                    <p>Hosted on Github, maintained by Mukund Manikarnike</p>
                 </div>
             </div>
         </footer>
