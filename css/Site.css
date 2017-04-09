@@ -619,7 +619,7 @@ tr.pager td {
     color:blue;
 }
 
-.breadcrumb {background: rgba(245, 245, 245, 1); border: 0px solid rgba(245, 245, 245, 1); border-radius: 0px; display: block;}
+.breadcrumb {background: rgba(245, 245, 245, 1); border: 0px solid rgba(245, 245, 245, 1); border-radius: 0px;}
 .breadcrumb li {font-size: 14px; display: inline; list-style: none;}
 .breadcrumb a {color: rgba(66, 139, 202, 1);}
 .breadcrumb a:hover {color: rgba(42, 100, 150, 1);}
