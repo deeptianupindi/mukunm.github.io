@@ -625,6 +625,12 @@ tr.pager td {
     border-radius: 0px;
 }
 
+.breadcrumb ul {
+    margin: 0;
+    padding: 0;    
+    text-align: center;
+}
+
 .breadcrumb li {
     font-size: 14px; 
     display: inline; 
